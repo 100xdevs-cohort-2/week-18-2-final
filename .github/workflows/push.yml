@@ -42,4 +42,4 @@ jobs:
           docker pull 100xdevs/web-app:latest
           docker stop web-app || true
           docker rm web-app || true
-          docker run -d --name web-app -p 80:3000 100xdevs/web-app:latest
+          docker run -d --name web-app -p 3005:3000 100xdevs/web-app:latest
